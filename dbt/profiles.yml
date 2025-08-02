@@ -1,0 +1,13 @@
+my_new_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: TQXSLSB-FT15925
+      user: ABOBAKAR
+      password: Kooooooooook#400
+      role: ACCOUNTADMIN
+      database: FINANCE_DBT_2
+      schema: RAW_2
+      warehouse: FINANC_WH_2
+      threads: 1

@@ -1,0 +1,29 @@
+# Git
+.git/
+.git*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Astro
+.astro/
+.dockerignore
+
+# dbt
+dbt/dbt_project.yml
+dbt/target/
+dbt/logs/
+dbt/profiles.yml
+
+# Operating Systems
+.DS_Store
+Thumbs.db
+
+# Credentials and sensitive data
+*.log
+*.json
